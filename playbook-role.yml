@@ -1,0 +1,5 @@
+- name: Provisionamento webserver
+  hosts: all
+
+  roles:
+    - { role: webserver }
